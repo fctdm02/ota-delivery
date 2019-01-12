@@ -1,0 +1,17 @@
+pluginManagement {
+    repositories {
+      maven {
+        url 'maven-repo'
+      }
+      gradlePluginPortal()
+      ivy {
+        url 'ivy-repo'
+      }
+    }
+}
+
+rootProject.name = 'ORFIN-Core'
+
+include 'ORFIN-Core-api'
+include 'ORFIN-Core-application'
+include 'ORFIN-Core-client'

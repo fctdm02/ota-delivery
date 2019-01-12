@@ -1,0 +1,37 @@
+{
+	"deliveryRuleSetName": "DEFAULT",
+	"authorizedBy": "tmyers28",
+	"messageToConsumer": "message to consumer",
+	"consentType": "SAFETY_UPDATE_NOTICE",
+	"complexConditions": [{
+		"complexConditionName": "complexConditionName1",
+		"complexConditionValue": "complexConditionValue1"
+	}, {
+		"complexConditionName": "complexConditionName2",
+		"complexConditionValue": "complexConditionValue2"
+	}],
+	"deliveryRules": [{
+		"allowable": true,
+		"precedenceLevel": 1,
+		"deliveryAudience": "CONSUMER",
+		"deliveryMethod": "OTA_ECG",
+		"connectionType": "CELLULAR"
+	}, {
+		"allowable": true,
+		"precedenceLevel": 2,
+		"deliveryAudience": "SERVICE",
+		"deliveryMethod": "TOOL",
+		"connectionType": "USB"
+	}],
+	"programModelYears": [{
+		"parentProgram": {
+			"programCode": "C344N"
+		},
+		"parentModelYear": {
+			"modelYearValue": 2017
+		},
+		"deliveryRuleSets": []
+	}],
+	"vadrReleases": [],
+	"programCodeModelYearInclusions": []
+}
